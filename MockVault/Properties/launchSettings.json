@@ -21,10 +21,11 @@
       "commandName": "Project",
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://+:8200;http://+:8201;http://+:8202;http://+:8203;http://+:8204;http://+:8205;"
       },
       "dotnetRunMessages": "true",
-      "applicationUrl": "http://localhost:8202"
+      "applicationUrl": "http://localhost:8200"
     },
     "Docker": {
       "commandName": "Docker",
