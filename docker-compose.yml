@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  mockvault:
+    build:
+      context: .
+      dockerfile: MockVault/Dockerfile
+    ports:
+      - "8200:80"
+      - "8201:80"
+      - "8202:80"
+      - "8203:80"
+      - "8204:80"
+      - "8205:80"
